@@ -12,8 +12,8 @@ const int offset = 0x2C;
 char data[800];
 long i = 0;
 
-const char *ssid = "Tenda_195";
-const char *password = "xbw941024";
+const char *ssid = "Makerfabs";
+const char *password = "20160704";
 
 //const char* ntpServer = "pool.ntp.org";
 const char *ntpServer = "120.25.108.11";
@@ -21,7 +21,7 @@ const long gmtOffset_sec = 8 * 60 * 60; //中国+8
 const int daylightOffset_sec = 0;
 
 String clock_time = "01:04";
-String clock_time2 = "07:30";
+String clock_time2 = "09:58";
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 struct tm timeinfo;
@@ -67,7 +67,8 @@ void setup()
   {
     Serial.println("Card Mount Failed");
     lcd_text("SD ERR");
-    while(1);
+    while (1)
+      ;
   }
   else
   {
@@ -83,11 +84,11 @@ void loop()
   printLocalTime();
   if (showtime() == 1)
   {
-    while(1)
+    while (1)
     {
       File file = SD.open("/clock.wav");
       file.seek(offset);
-      if(play_music(file) == 1)
+      if (play_music(file) == 1)
         break;
       printLocalTime();
       showtime();
@@ -95,11 +96,11 @@ void loop()
   }
   if (showtime() == 2)
   {
-    while(1)
+    while (1)
     {
-      File file = SD.open("/clock1.wav");
+      File file = SD.open("/clock.wav");
       file.seek(offset);
-      if(play_music(file) == 1)
+      if (play_music(file) == 1)
         break;
       printLocalTime();
       showtime();
@@ -122,7 +123,7 @@ void lcd_text(String text)
 
 void printLocalTime()
 {
-  
+
   if (!getLocalTime(&timeinfo))
   {
     Serial.println("Failed to obtain time");
@@ -137,7 +138,7 @@ int showtime()
   int min = timeinfo.tm_min;
   int sec = timeinfo.tm_sec;
   char time_str[10];
-  sprintf(time_str,"%02d:%02d:%02d",hour,min,sec);
+  sprintf(time_str, "%02d:%02d:%02d", hour, min, sec);
   display.clearDisplay();
 
   display.setTextSize(2);              // Normal 1:1 pixel scale
@@ -146,11 +147,11 @@ int showtime()
   display.println(time_str);
   display.display();
   String temp = (String)time_str;
-  if(temp.startsWith(clock_time))
+  if (temp.startsWith(clock_time))
   {
     return 1;
   }
-  if(temp.startsWith(clock_time2))
+  if (temp.startsWith(clock_time2))
   {
     return 2;
   }
