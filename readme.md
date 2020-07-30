@@ -9,8 +9,8 @@ Note:
 */
 ```
 
-[YOUTUBE:]()
-![main](md_pic/main.JPG)
+
+![main](md_pic/main.jpg)
 
 [toc]
 
@@ -85,9 +85,13 @@ String clock_time2 = "15:53:00";
 - Set Wifi password.
 - When the alarm goes off, you can press the left button inward. Turn off the sound and show the time.
 
+![alarm](md_pic/alarm.gif)
+
 # 3D Printer Box
 
 We designed a simple 3D-printed case. Don't need support.
+
+[STL File](https://github.com/Makerfabs/Project_MakePython_Audio_Music/)
 
 ![3d1](md_pic/3d1.png)
 

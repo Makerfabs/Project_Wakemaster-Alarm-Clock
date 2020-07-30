@@ -48,8 +48,8 @@ const char *password = "20160704";
 const char *ntpServer = "120.25.108.11";
 const long gmtOffset_sec = 8 * 60 * 60; //中国+8
 const int daylightOffset_sec = 0;
-String clock_time = "15:50:00";
-String clock_time2 = "15:53:00";
+String clock_time = "18:01:00";
+String clock_time2 = "18:03:00";
 
 struct Music_info
 {
