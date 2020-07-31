@@ -10,6 +10,7 @@ Note:
 ```
 
 
+
 ![main](md_pic/main.jpg)
 
 [toc]
@@ -79,7 +80,7 @@ String clock_time2 = "15:53:00";
 - Insert a Micro SD card into MakePython Audio.
 - Plug the stereo or earphone into a 3.5mm audio jack.
 
-## How to use MusicPlayer
+## How to use Alarm Clock
 
 - Set alarm time in code.
 - Set Wifi password.
