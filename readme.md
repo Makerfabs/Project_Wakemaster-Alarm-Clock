@@ -10,6 +10,7 @@ Note:
 */
 ```
 
+[YOUTUBE:How to DIY an ESP32 Audio Player(3D print box)](https://youtu.be/uyHbnU4p6tc)
 
 
 ![main](md_pic/main.jpg)
@@ -98,9 +99,6 @@ We designed a simple 3D-printed case. Don't need support.
 ![3d1](md_pic/3d1.png)
 
 ![3d1](md_pic/3d2.png)
-
-
-
 
 
 # BT Speaker
