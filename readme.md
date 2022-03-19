@@ -2,10 +2,11 @@
 
 ```c++
 /*
-Version:		V1.0
+Version:		V1.1
 Author:			Vincent
 Create Date:	2020/7/30
 Note:
+2022/3/19	Add a bluetooth speaker demo.
 */
 ```
 
@@ -97,3 +98,13 @@ We designed a simple 3D-printed case. Don't need support.
 ![3d1](md_pic/3d1.png)
 
 ![3d1](md_pic/3d2.png)
+
+
+
+
+
+# BT Speaker
+
+Have some noise, I don't know why....
+Use library: https://github.com/tierneytim/btAudio
+
