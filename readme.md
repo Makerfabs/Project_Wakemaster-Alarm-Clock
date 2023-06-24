@@ -23,7 +23,7 @@ Note:
 
 [Makerfabs home page](https://www.makerfabs.com/)
 
-[Makerfabs Wiki](https://makerfabs.com/wiki/index.php?title=Main_Page)
+[Makerfabs Wiki](https://wiki.makerfabs.com/)
 
 MakePython ESP32 and Audio, which play music from an SD card.ESP32 connects to WiFi to get the exact NTP time.When the alarm clock is set, the music automatically plays and can be plugged into the subwoofer at home.When the alarm clock reminds you, you will never fall asleep again!
 
@@ -33,8 +33,8 @@ MakePython ESP32 and Audio, which play music from an SD card.ESP32 connects to W
 
 ## Equipment list
 
-- [MakePython ESP32](https://www.makerfabs.com/wiki/index.php?title=MakePython_ESP32)
-- [MakaPython Audio](https://www.makerfabs.com/wiki/index.php?title=MakaPython_Audio)
+- [MakePython ESP32](https://wiki.makerfabs.com/MaESP_ESP32.html)
+- [MakaPython Audio](https://wiki.makerfabs.com/MaESP_Audio.html)
 - Audio/headphones with 3.5mm audio connector
 - Micro SD card
 
